@@ -1392,8 +1392,8 @@ var MyFirstServiceService = /** @class */ (function () {
                     suit: suit.name,
                     symbol: suit.symbol,
                     value: card.value,
-                    face: "../assets/img/" + suit.name + "_" + card.name + ".svg",
-                    back: "../assets/img/back.png"
+                    face: "./assets/img/" + suit.name + "_" + card.name + ".svg",
+                    back: "./assets/img/back.png"
                 };
                 newDeck.push(newCardObj);
             });
