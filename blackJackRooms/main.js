@@ -361,7 +361,7 @@ module.exports = ".cards {\n  display: flex;\n  flex-direction: row;\n  justify-
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<section class=\"game-field\">\n  <div class=\"decision-buttons\">\n    <button class=\"next-card\"\n     *ngIf=\"gameInProgress\"\n     (click)=\"cardTaken.emit()\"\n     [disabled]=\"!isActive || !isMyTurn\">\n      Pick a card\n    </button>\n\n    <button class=\"stop-game\"\n     *ngIf=\"gameInProgress\"\n     (click)=\"gameStopped.emit()\"\n     [disabled]=\"!isActive || !isMyTurn \">\n      Stop\n    </button>\n  </div>\n\n <div *ngFor=\"let player of players\"\n  class=\"player-field\">\n  <div class=\"cards\">\n    <img *ngFor=\"let card of player.cards\"\n         [src]=\"!gameInProgress ? card.face : player.id === blackJackData.userId ? card.face : card.back\" />\n  </div>\n  <img class=\"turn-arrow\" *ngIf=\"player.isMyTurn && thisRoom.gameInProgress\" src=\"./assets/img/arrow-31182_960_720.png\" />\n\n</div>\n</section>\n"
+module.exports = "<section class=\"game-field\">\n  <div class=\"decision-buttons\">\n    <button class=\"next-card\"\n     *ngIf=\"gameInProgress\"\n     (click)=\"cardTaken.emit()\"\n     [disabled]=\"!isActive || !isMyTurn\">\n      Pick a card\n    </button>\n\n    <button class=\"stop-game\"\n     *ngIf=\"gameInProgress\"\n     (click)=\"gameStopped.emit()\"\n     [disabled]=\"!isActive || !isMyTurn \">\n      Stop\n    </button>\n  </div>\n\n <div *ngFor=\"let player of players\"\n  class=\"player-field\">\n  <div class=\"cards\">\n    <img *ngFor=\"let card of player.cards\"\n         [src]=\"!gameInProgress ? card.face : player.id === blackJackData.userId ? card.face : card.back\" />\n  </div>\n  <img class=\"turn-arrow\" *ngIf=\"player.isMyTurn && thisRoom.gameInProgress\" src=\"../../../assets/img/arrow-31182_960_720.png\" />\n\n</div>\n</section>\n"
 
 /***/ }),
 
@@ -1345,7 +1345,7 @@ module.exports = ".menu-button {\n  border: 1px solid gray;\n  border-radius: 20
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n<div *ngIf=\"!mayIComeIn\">\n  <!-- Sorry, your there is no space for you in the room number {{id}}\n  Please -->\n  <img src=\"./assets/img/spinner.gif\">\n\n</div>\n\n<app-multiplayer *ngIf=mayIComeIn></app-multiplayer>\n\n<!-- <app-multiplayer></app-multiplayer> -->\n\n"
+module.exports = "\n<div *ngIf=\"!mayIComeIn\">\n  <!-- Sorry, your there is no space for you in the room number {{id}}\n  Please -->\n  <img src=\"../../assets/img/spinner.gif\">\n\n</div>\n\n<app-multiplayer *ngIf=mayIComeIn></app-multiplayer>\n\n<!-- <app-multiplayer></app-multiplayer> -->\n\n"
 
 /***/ }),
 
@@ -1812,8 +1812,8 @@ var MyFirstServiceService = /** @class */ (function () {
                     suit: suit.name,
                     symbol: suit.symbol,
                     value: card.value,
-                    face: "./assets/img/" + suit.name + "_" + card.name + ".svg",
-                    back: "./assets/img/back.png"
+                    face: "../assets/img/" + suit.name + "_" + card.name + ".svg",
+                    back: "../assets/img/back.png"
                 };
                 newDeck.push(newCardObj);
             });
