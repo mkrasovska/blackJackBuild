@@ -251,7 +251,7 @@ var ClosedRoomComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".existing-rooms {\n  display: flex;\n  flex-direction: row;\n  justify-content: flex-start;\n\n}\n\n.room {\n  background-color: burlywood;\n  width: 250px;\n  height: 150px;\n  border: 2px solid;\n  margin-right: 20px;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  align-items: center;\n}\n\n.menu-button {\n  border: 1px solid gray;\n  border-radius: 20px;\n  display: inline-block;\n  width: 100px;\n  background-color: rgb(73, 128, 223);\n  color: black;\n  font-weight: 600;\n  text-decoration: none;\n  padding: 5px 15px;\n}\n\n.menu-button:hover {\n    box-shadow: 0 0 5px rgba(0,0,0,0.3);\n    background: rgb(103, 152, 238);\n  }\n\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZ2FtZS1tdWx0aS9nYW1lLW11bHRpLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxjQUFjO0VBQ2Qsb0JBQW9CO0VBQ3BCLDRCQUE0Qjs7Q0FFN0I7O0FBRUQ7RUFDRSw0QkFBNEI7RUFDNUIsYUFBYTtFQUNiLGNBQWM7RUFDZCxrQkFBa0I7RUFDbEIsbUJBQW1CO0VBQ25CLGNBQWM7RUFDZCx1QkFBdUI7RUFDdkIsOEJBQThCO0VBQzlCLG9CQUFvQjtDQUNyQjs7QUFFRDtFQUNFLHVCQUF1QjtFQUN2QixvQkFBb0I7RUFDcEIsc0JBQXNCO0VBQ3RCLGFBQWE7RUFDYixvQ0FBb0M7RUFDcEMsYUFBYTtFQUNiLGlCQUFpQjtFQUNqQixzQkFBc0I7RUFDdEIsa0JBQWtCO0NBQ25COztBQUVDO0lBQ0Usb0NBQW9DO0lBQ3BDLCtCQUErQjtHQUNoQyIsImZpbGUiOiJzcmMvYXBwL2dhbWUtbXVsdGkvZ2FtZS1tdWx0aS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmV4aXN0aW5nLXJvb21zIHtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxleC1kaXJlY3Rpb246IHJvdztcbiAganVzdGlmeS1jb250ZW50OiBmbGV4LXN0YXJ0O1xuXG59XG5cbi5yb29tIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogYnVybHl3b29kO1xuICB3aWR0aDogMjUwcHg7XG4gIGhlaWdodDogMTUwcHg7XG4gIGJvcmRlcjogMnB4IHNvbGlkO1xuICBtYXJnaW4tcmlnaHQ6IDIwcHg7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gIGp1c3RpZnktY29udGVudDogc3BhY2UtYXJvdW5kO1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xufVxuXG4ubWVudS1idXR0b24ge1xuICBib3JkZXI6IDFweCBzb2xpZCBncmF5O1xuICBib3JkZXItcmFkaXVzOiAyMHB4O1xuICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gIHdpZHRoOiAxMDBweDtcbiAgYmFja2dyb3VuZC1jb2xvcjogcmdiKDczLCAxMjgsIDIyMyk7XG4gIGNvbG9yOiBibGFjaztcbiAgZm9udC13ZWlnaHQ6IDYwMDtcbiAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xuICBwYWRkaW5nOiA1cHggMTVweDtcbn1cblxuICAubWVudS1idXR0b246aG92ZXIge1xuICAgIGJveC1zaGFkb3c6IDAgMCA1cHggcmdiYSgwLDAsMCwwLjMpO1xuICAgIGJhY2tncm91bmQ6IHJnYigxMDMsIDE1MiwgMjM4KTtcbiAgfVxuXG4iXX0= */"
+module.exports = ".existing-rooms {\n  display: flex;\n  flex-direction: row;\n  justify-content: flex-start;\n\n}\n\n.room {\n  background-color: burlywood;\n  /* width: 250px;\n  height: 200px; */\n  border: 2px solid;\n  margin-right: 20px;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  align-items: center;\n}\n\n.menu-button {\n  border: 1px solid gray;\n  border-radius: 20px;\n  display: inline-block;\n  width: 120px;\n  background-color: rgb(73, 128, 223);\n  color: black;\n  font-weight: 600;\n  text-decoration: none;\n  padding: 5px 15px;\n  margin: 0 10px 10px 10px;\n  text-align: center;\n}\n\n.menu-button:hover {\n    box-shadow: 0 0 5px rgba(0,0,0,0.3);\n    background: rgb(103, 152, 238);\n  }\n\n.add-room-controls {\n    display: flex;\n    flex-direction: row;\n    justify-content: space-between;\n    width: 500px\n  }\n\n.main-container {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: space-around;\n    position: absolute;\n    width: 100%;\n    height: 100%;\n    }\n\n.number-of-players {\n    width: 90px;\n  }\n\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZ2FtZS1tdWx0aS9nYW1lLW11bHRpLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxjQUFjO0VBQ2Qsb0JBQW9CO0VBQ3BCLDRCQUE0Qjs7Q0FFN0I7O0FBRUQ7RUFDRSw0QkFBNEI7RUFDNUI7bUJBQ2lCO0VBQ2pCLGtCQUFrQjtFQUNsQixtQkFBbUI7RUFDbkIsY0FBYztFQUNkLHVCQUF1QjtFQUN2Qiw4QkFBOEI7RUFDOUIsb0JBQW9CO0NBQ3JCOztBQUVEO0VBQ0UsdUJBQXVCO0VBQ3ZCLG9CQUFvQjtFQUNwQixzQkFBc0I7RUFDdEIsYUFBYTtFQUNiLG9DQUFvQztFQUNwQyxhQUFhO0VBQ2IsaUJBQWlCO0VBQ2pCLHNCQUFzQjtFQUN0QixrQkFBa0I7RUFDbEIseUJBQXlCO0VBQ3pCLG1CQUFtQjtDQUNwQjs7QUFFQztJQUNFLG9DQUFvQztJQUNwQywrQkFBK0I7R0FDaEM7O0FBRUQ7SUFDRSxjQUFjO0lBQ2Qsb0JBQW9CO0lBQ3BCLCtCQUErQjtJQUMvQixZQUFZO0dBQ2I7O0FBRUQ7SUFDRSxjQUFjO0lBQ2QsdUJBQXVCO0lBQ3ZCLG9CQUFvQjtJQUNwQiw4QkFBOEI7SUFDOUIsbUJBQW1CO0lBQ25CLFlBQVk7SUFDWixhQUFhO0tBQ1o7O0FBRUg7SUFDRSxZQUFZO0dBQ2IiLCJmaWxlIjoic3JjL2FwcC9nYW1lLW11bHRpL2dhbWUtbXVsdGkuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5leGlzdGluZy1yb29tcyB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsZXgtZGlyZWN0aW9uOiByb3c7XG4gIGp1c3RpZnktY29udGVudDogZmxleC1zdGFydDtcblxufVxuXG4ucm9vbSB7XG4gIGJhY2tncm91bmQtY29sb3I6IGJ1cmx5d29vZDtcbiAgLyogd2lkdGg6IDI1MHB4O1xuICBoZWlnaHQ6IDIwMHB4OyAqL1xuICBib3JkZXI6IDJweCBzb2xpZDtcbiAgbWFyZ2luLXJpZ2h0OiAyMHB4O1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWFyb3VuZDtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbn1cblxuLm1lbnUtYnV0dG9uIHtcbiAgYm9yZGVyOiAxcHggc29saWQgZ3JheTtcbiAgYm9yZGVyLXJhZGl1czogMjBweDtcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICB3aWR0aDogMTIwcHg7XG4gIGJhY2tncm91bmQtY29sb3I6IHJnYig3MywgMTI4LCAyMjMpO1xuICBjb2xvcjogYmxhY2s7XG4gIGZvbnQtd2VpZ2h0OiA2MDA7XG4gIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbiAgcGFkZGluZzogNXB4IDE1cHg7XG4gIG1hcmdpbjogMCAxMHB4IDEwcHggMTBweDtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuXG4gIC5tZW51LWJ1dHRvbjpob3ZlciB7XG4gICAgYm94LXNoYWRvdzogMCAwIDVweCByZ2JhKDAsMCwwLDAuMyk7XG4gICAgYmFja2dyb3VuZDogcmdiKDEwMywgMTUyLCAyMzgpO1xuICB9XG5cbiAgLmFkZC1yb29tLWNvbnRyb2xzIHtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGZsZXgtZGlyZWN0aW9uOiByb3c7XG4gICAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuO1xuICAgIHdpZHRoOiA1MDBweFxuICB9XG5cbiAgLm1haW4tY29udGFpbmVyIHtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWFyb3VuZDtcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgd2lkdGg6IDEwMCU7XG4gICAgaGVpZ2h0OiAxMDAlO1xuICAgIH1cblxuICAubnVtYmVyLW9mLXBsYXllcnMge1xuICAgIHdpZHRoOiA5MHB4O1xuICB9XG5cbiJdfQ== */"
 
 /***/ }),
 
@@ -262,7 +262,7 @@ module.exports = ".existing-rooms {\n  display: flex;\n  flex-direction: row;\n 
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<button type=\"submit\" (click)=addRoom(roomName.value,+maxPlayers.value)>\n  Add room\n</button>\n<input #roomName placeholder=\"room name\">\n\n<input #maxPlayers placeholder=\"max players\">\n\n<p>Select existing room</p>\n<div class=\"existing-rooms\">\n\n<div class=\"room\"\n  *ngFor=\"let room of rooms\">\n  {{room.id}}\n  {{room.name}}\n  Counter: {{room.counter}}\n\n  <a class=\"menu-button\" [routerLink]=\"['/playroom', room.id]\"> Enter room {{room.id}}</a>\n\n  <button (click)=\"deleteRoom(room.id)\"\n   [disabled]=\"room.players\" >\n    Delete\n  </button>\n</div>\n\n</div>\n"
+module.exports = "<div class=main-container>\n<div class=add-room-controls>\n  <button type=\"submit\"\n    (click)=addRoom(roomName.value,+maxPlayers.value)>\n    Add room\n  </button>\n\n  <input #roomName\n    placeholder=\"room name\">\n\n  <input #maxPlayers\n    type=number\n    class=number-of-players\n    placeholder=\"max players\">\n</div>\n\n<div class=\"existing-rooms\">\n\n<div class=\"room\"\n  *ngFor=\"let room of rooms\">\n  <p>{{room.id}}\n  {{room.name}}</p>\n  <p>Counter: {{room.counter}} of {{room.maxPlayers}}</p>\n\n  <a class=\"menu-button\" [routerLink]=\"['/playroom', room.id]\"> Enter room </a>\n\n  <button (click)=\"deleteRoom(room.id)\"\n  class=\"menu-button\"\n   [disabled]=\"room.players\" >\n    Delete\n  </button>\n</div>\n\n</div>\n\n</div>\n"
 
 /***/ }),
 
@@ -304,12 +304,13 @@ var GameMultiComponent = /** @class */ (function () {
     }
     GameMultiComponent.prototype.addRoom = function (roomName, maxPlayers) {
         var roomId = new Date().getUTCMilliseconds();
+        var blackJackData = this._myService.getMyData() || this._myService.randomUserData;
         this.db.object('/rooms/room' + roomId).update({
             name: roomName,
             maxPlayers: maxPlayers || 2,
             id: roomId,
             // counter: 0,
-            masterId: this._myService.blackJackData.userId,
+            masterId: blackJackData.userId,
             deck: this._myService.createDeck(),
             players: {},
             gameInProgress: false
@@ -350,7 +351,7 @@ var GameMultiComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".cards {\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n}\n\n.cards img {\n  display: block;\n  width: 100px;\n  height: 130px;\n  background-color: white;\n  z-index: 100;\n  margin: 10px;\n  border-radius: 10px;\n  border: 2px solid grey;\n}\n\n.turn-arrow {\n  background-color: green;\n  width: 60px;\n  height: 40px;\n}\n\n.player-field{\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n  align-items: center;\n}\n\n.decision-buttons {\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n}\n\n.next-card,\n.stop-game {\n  width: 150px;\n  height: 30px;\n  margin: 10px;\n  border-radius: 20px;\n  background-color: rgb(73, 128, 223);\n}\n\n.next-card:hover,\n.stop-game:hover {\n  background-color: rgb(103, 152, 238);\n}\n\n.next-card:active,\n.stop-game:active {\n  background-color: rgb(16, 95, 231);\n}\n\n.game-field {\n  text-align: center;\n}\n\n\n\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZ2FtZS9maWVsZC9maWVsZC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsY0FBYztFQUNkLG9CQUFvQjtFQUNwQix3QkFBd0I7Q0FDekI7O0FBRUQ7RUFDRSxlQUFlO0VBQ2YsYUFBYTtFQUNiLGNBQWM7RUFDZCx3QkFBd0I7RUFDeEIsYUFBYTtFQUNiLGFBQWE7RUFDYixvQkFBb0I7RUFDcEIsdUJBQXVCO0NBQ3hCOztBQUVEO0VBQ0Usd0JBQXdCO0VBQ3hCLFlBQVk7RUFDWixhQUFhO0NBQ2Q7O0FBRUQ7RUFDRSxjQUFjO0VBQ2Qsb0JBQW9CO0VBQ3BCLCtCQUErQjtFQUMvQixvQkFBb0I7Q0FDckI7O0FBRUQ7RUFDRSxjQUFjO0VBQ2Qsb0JBQW9CO0VBQ3BCLG9CQUFvQjtDQUNyQjs7QUFFRDs7RUFFRSxhQUFhO0VBQ2IsYUFBYTtFQUNiLGFBQWE7RUFDYixvQkFBb0I7RUFDcEIsb0NBQW9DO0NBQ3JDOztBQUVEOztFQUVFLHFDQUFxQztDQUN0Qzs7QUFFRDs7RUFFRSxtQ0FBbUM7Q0FDcEM7O0FBRUQ7RUFDRSxtQkFBbUI7Q0FDcEIiLCJmaWxlIjoic3JjL2FwcC9nYW1lL2ZpZWxkL2ZpZWxkLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuY2FyZHMge1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbGV4LWRpcmVjdGlvbjogcm93O1xuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbn1cblxuLmNhcmRzIGltZyB7XG4gIGRpc3BsYXk6IGJsb2NrO1xuICB3aWR0aDogMTAwcHg7XG4gIGhlaWdodDogMTMwcHg7XG4gIGJhY2tncm91bmQtY29sb3I6IHdoaXRlO1xuICB6LWluZGV4OiAxMDA7XG4gIG1hcmdpbjogMTBweDtcbiAgYm9yZGVyLXJhZGl1czogMTBweDtcbiAgYm9yZGVyOiAycHggc29saWQgZ3JleTtcbn1cblxuLnR1cm4tYXJyb3cge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiBncmVlbjtcbiAgd2lkdGg6IDYwcHg7XG4gIGhlaWdodDogNDBweDtcbn1cblxuLnBsYXllci1maWVsZHtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxleC1kaXJlY3Rpb246IHJvdztcbiAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuO1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xufVxuXG4uZGVjaXNpb24tYnV0dG9ucyB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsZXgtZGlyZWN0aW9uOiByb3c7XG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG59XG5cbi5uZXh0LWNhcmQsXG4uc3RvcC1nYW1lIHtcbiAgd2lkdGg6IDE1MHB4O1xuICBoZWlnaHQ6IDMwcHg7XG4gIG1hcmdpbjogMTBweDtcbiAgYm9yZGVyLXJhZGl1czogMjBweDtcbiAgYmFja2dyb3VuZC1jb2xvcjogcmdiKDczLCAxMjgsIDIyMyk7XG59XG5cbi5uZXh0LWNhcmQ6aG92ZXIsXG4uc3RvcC1nYW1lOmhvdmVyIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogcmdiKDEwMywgMTUyLCAyMzgpO1xufVxuXG4ubmV4dC1jYXJkOmFjdGl2ZSxcbi5zdG9wLWdhbWU6YWN0aXZlIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogcmdiKDE2LCA5NSwgMjMxKTtcbn1cblxuLmdhbWUtZmllbGQge1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG5cblxuXG4iXX0= */"
+module.exports = ".cards {\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n}\n\n.cards img {\n  display: block;\n  width: 90px;\n  height: 120px;\n  background-color: white;\n  z-index: 100;\n  margin: 10px;\n  border-radius: 10px;\n  border: 2px solid grey;\n}\n\n.turn-arrow {\n  background-color: green;\n  width: 60px;\n  height: 40px;\n}\n\n.player-field{\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n  align-items: center;\n}\n\n.decision-buttons {\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n}\n\n.next-card,\n.stop-game {\n  width: 150px;\n  height: 30px;\n  margin: 10px;\n  border-radius: 20px;\n  background-color: rgb(73, 128, 223);\n}\n\n.next-card:hover,\n.stop-game:hover {\n  background-color: rgb(103, 152, 238);\n}\n\n.next-card:active,\n.stop-game:active {\n  background-color: rgb(16, 95, 231);\n}\n\n.game-field {\n  text-align: center;\n}\n\n\n\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZ2FtZS9maWVsZC9maWVsZC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsY0FBYztFQUNkLG9CQUFvQjtFQUNwQix3QkFBd0I7Q0FDekI7O0FBRUQ7RUFDRSxlQUFlO0VBQ2YsWUFBWTtFQUNaLGNBQWM7RUFDZCx3QkFBd0I7RUFDeEIsYUFBYTtFQUNiLGFBQWE7RUFDYixvQkFBb0I7RUFDcEIsdUJBQXVCO0NBQ3hCOztBQUVEO0VBQ0Usd0JBQXdCO0VBQ3hCLFlBQVk7RUFDWixhQUFhO0NBQ2Q7O0FBRUQ7RUFDRSxjQUFjO0VBQ2Qsb0JBQW9CO0VBQ3BCLCtCQUErQjtFQUMvQixvQkFBb0I7Q0FDckI7O0FBRUQ7RUFDRSxjQUFjO0VBQ2Qsb0JBQW9CO0VBQ3BCLG9CQUFvQjtDQUNyQjs7QUFFRDs7RUFFRSxhQUFhO0VBQ2IsYUFBYTtFQUNiLGFBQWE7RUFDYixvQkFBb0I7RUFDcEIsb0NBQW9DO0NBQ3JDOztBQUVEOztFQUVFLHFDQUFxQztDQUN0Qzs7QUFFRDs7RUFFRSxtQ0FBbUM7Q0FDcEM7O0FBRUQ7RUFDRSxtQkFBbUI7Q0FDcEIiLCJmaWxlIjoic3JjL2FwcC9nYW1lL2ZpZWxkL2ZpZWxkLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuY2FyZHMge1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbGV4LWRpcmVjdGlvbjogcm93O1xuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbn1cblxuLmNhcmRzIGltZyB7XG4gIGRpc3BsYXk6IGJsb2NrO1xuICB3aWR0aDogOTBweDtcbiAgaGVpZ2h0OiAxMjBweDtcbiAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGU7XG4gIHotaW5kZXg6IDEwMDtcbiAgbWFyZ2luOiAxMHB4O1xuICBib3JkZXItcmFkaXVzOiAxMHB4O1xuICBib3JkZXI6IDJweCBzb2xpZCBncmV5O1xufVxuXG4udHVybi1hcnJvdyB7XG4gIGJhY2tncm91bmQtY29sb3I6IGdyZWVuO1xuICB3aWR0aDogNjBweDtcbiAgaGVpZ2h0OiA0MHB4O1xufVxuXG4ucGxheWVyLWZpZWxke1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbGV4LWRpcmVjdGlvbjogcm93O1xuICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47XG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG59XG5cbi5kZWNpc2lvbi1idXR0b25zIHtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxleC1kaXJlY3Rpb246IHJvdztcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbn1cblxuLm5leHQtY2FyZCxcbi5zdG9wLWdhbWUge1xuICB3aWR0aDogMTUwcHg7XG4gIGhlaWdodDogMzBweDtcbiAgbWFyZ2luOiAxMHB4O1xuICBib3JkZXItcmFkaXVzOiAyMHB4O1xuICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoNzMsIDEyOCwgMjIzKTtcbn1cblxuLm5leHQtY2FyZDpob3Zlcixcbi5zdG9wLWdhbWU6aG92ZXIge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMTAzLCAxNTIsIDIzOCk7XG59XG5cbi5uZXh0LWNhcmQ6YWN0aXZlLFxuLnN0b3AtZ2FtZTphY3RpdmUge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMTYsIDk1LCAyMzEpO1xufVxuXG4uZ2FtZS1maWVsZCB7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuXG5cbiJdfQ== */"
 
 /***/ }),
 
@@ -397,7 +398,7 @@ var FieldComponent = /** @class */ (function () {
         this._myService = _myService;
         this.cardTaken = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
         this.gameStopped = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
-        this.blackJackData = this._myService.blackJackData;
+        // public blackJackData: TLocalData = this._myService.blackJackData;
         this._destroy$$ = new rxjs__WEBPACK_IMPORTED_MODULE_2__["Subject"]();
         this.isActive = false;
         this.isMyTurn = false;
@@ -416,7 +417,7 @@ var FieldComponent = /** @class */ (function () {
                 _this.playersObj = room.players;
                 // console.log(this.playersObj);
                 _this.isActive = _this.players.every(function (player) { return player.ready; });
-                _this.isMyTurn = _this.playersObj[_this._myService.blackJackData.userId].isMyTurn;
+                _this.isMyTurn = _this.playersObj[_this.blackJackData.userId].isMyTurn;
                 // console.log(this.isActive);
             }
         });
@@ -440,6 +441,10 @@ var FieldComponent = /** @class */ (function () {
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])(),
         __metadata("design:type", Array)
     ], FieldComponent.prototype, "players", void 0);
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])(),
+        __metadata("design:type", Object)
+    ], FieldComponent.prototype, "blackJackData", void 0);
     FieldComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'app-field',
@@ -638,7 +643,7 @@ var GameComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".new-game  {\n  width: 80px;\n  height: 30px;\n  margin: 10px;\n  border-radius: 20px;\n  background-color: rgb(73, 128, 223);\n}\n\n.go-to-menu {\n  border: 2px solid gray;\n  border-radius: 20px;\n  display: inline-block;\n  width: 55px;\n  background-color: rgb(73, 128, 223);\n  color: black;\n  text-decoration: none;\n  font-weight: 100;\n  padding:3px 15px;\n}\n\n.go-to-menu:hover {\n  box-shadow: 0 0 5px rgba(0,0,0,0.3);\n  background: rgb(103, 152, 238);\n}\n\n.master {\n  color: red;\n}\n\n.is-finished {\n  opacity: 0.5;\n}\n\n.bot-number{\n  width: 30px;\n}\n\n.is-bot {\n  background-image: url('bot.png');\n  background-position-x: 95%;\n  background-repeat: no-repeat;\n  background-size: 20px;\n}\n\n.is-human {\n  background-image: url('human.png');\n  background-position-x: 95%;\n  background-repeat: no-repeat;\n  background-size: 25px;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZ2FtZS9zaWRlYmFyL3NpZGViYXIuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLFlBQVk7RUFDWixhQUFhO0VBQ2IsYUFBYTtFQUNiLG9CQUFvQjtFQUNwQixvQ0FBb0M7Q0FDckM7O0FBRUQ7RUFDRSx1QkFBdUI7RUFDdkIsb0JBQW9CO0VBQ3BCLHNCQUFzQjtFQUN0QixZQUFZO0VBQ1osb0NBQW9DO0VBQ3BDLGFBQWE7RUFDYixzQkFBc0I7RUFDdEIsaUJBQWlCO0VBQ2pCLGlCQUFpQjtDQUNsQjs7QUFFRDtFQUNFLG9DQUFvQztFQUNwQywrQkFBK0I7Q0FDaEM7O0FBRUQ7RUFDRSxXQUFXO0NBQ1o7O0FBRUQ7RUFDRSxhQUFhO0NBQ2Q7O0FBRUQ7RUFDRSxZQUFZO0NBQ2I7O0FBRUQ7RUFDRSxpQ0FBbUQ7RUFDbkQsMkJBQTJCO0VBQzNCLDZCQUE2QjtFQUM3QixzQkFBc0I7Q0FDdkI7O0FBRUQ7RUFDRSxtQ0FBcUQ7RUFDckQsMkJBQTJCO0VBQzNCLDZCQUE2QjtFQUM3QixzQkFBc0I7Q0FDdkIiLCJmaWxlIjoic3JjL2FwcC9nYW1lL3NpZGViYXIvc2lkZWJhci5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLm5ldy1nYW1lICB7XG4gIHdpZHRoOiA4MHB4O1xuICBoZWlnaHQ6IDMwcHg7XG4gIG1hcmdpbjogMTBweDtcbiAgYm9yZGVyLXJhZGl1czogMjBweDtcbiAgYmFja2dyb3VuZC1jb2xvcjogcmdiKDczLCAxMjgsIDIyMyk7XG59XG5cbi5nby10by1tZW51IHtcbiAgYm9yZGVyOiAycHggc29saWQgZ3JheTtcbiAgYm9yZGVyLXJhZGl1czogMjBweDtcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICB3aWR0aDogNTVweDtcbiAgYmFja2dyb3VuZC1jb2xvcjogcmdiKDczLCAxMjgsIDIyMyk7XG4gIGNvbG9yOiBibGFjaztcbiAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xuICBmb250LXdlaWdodDogMTAwO1xuICBwYWRkaW5nOjNweCAxNXB4O1xufVxuXG4uZ28tdG8tbWVudTpob3ZlciB7XG4gIGJveC1zaGFkb3c6IDAgMCA1cHggcmdiYSgwLDAsMCwwLjMpO1xuICBiYWNrZ3JvdW5kOiByZ2IoMTAzLCAxNTIsIDIzOCk7XG59XG5cbi5tYXN0ZXIge1xuICBjb2xvcjogcmVkO1xufVxuXG4uaXMtZmluaXNoZWQge1xuICBvcGFjaXR5OiAwLjU7XG59XG5cbi5ib3QtbnVtYmVye1xuICB3aWR0aDogMzBweDtcbn1cblxuLmlzLWJvdCB7XG4gIGJhY2tncm91bmQtaW1hZ2U6IHVybCguLi8uLi8uLi9hc3NldHMvaW1nL2JvdC5wbmcpO1xuICBiYWNrZ3JvdW5kLXBvc2l0aW9uLXg6IDk1JTtcbiAgYmFja2dyb3VuZC1yZXBlYXQ6IG5vLXJlcGVhdDtcbiAgYmFja2dyb3VuZC1zaXplOiAyMHB4O1xufVxuXG4uaXMtaHVtYW4ge1xuICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoLi4vLi4vLi4vYXNzZXRzL2ltZy9odW1hbi5wbmcpO1xuICBiYWNrZ3JvdW5kLXBvc2l0aW9uLXg6IDk1JTtcbiAgYmFja2dyb3VuZC1yZXBlYXQ6IG5vLXJlcGVhdDtcbiAgYmFja2dyb3VuZC1zaXplOiAyNXB4O1xufVxuIl19 */"
+module.exports = ".new-game  {\n  width: 80px;\n  height: 30px;\n  margin: 10px;\n  border-radius: 20px;\n  background-color: rgb(73, 128, 223);\n}\n\n.go-to-menu {\n  border: 2px solid gray;\n  border-radius: 20px;\n  display: inline-block;\n  width: 55px;\n  background-color: rgb(73, 128, 223);\n  color: black;\n  text-decoration: none;\n  font-weight: 100;\n  padding:3px 15px;\n}\n\n.go-to-menu:hover {\n  box-shadow: 0 0 5px rgba(0,0,0,0.3);\n  background: rgb(103, 152, 238);\n}\n\n.master {\n  color: red;\n}\n\n.is-finished {\n  opacity: 0.5;\n}\n\n.bot-number{\n  width: 30px;\n}\n\n.is-bot {\n  background-image: url('bot.png');\n  background-position-x: 95%;\n  background-repeat: no-repeat;\n  background-size: 20px;\n}\n\n.is-human {\n  background-image: url('human.png');\n  background-position-x: 95%;\n  background-repeat: no-repeat;\n  background-size: 25px;\n}\n\n.player-name {\n  background-color: rgba(255, 255, 255, 0.3);\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZ2FtZS9zaWRlYmFyL3NpZGViYXIuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLFlBQVk7RUFDWixhQUFhO0VBQ2IsYUFBYTtFQUNiLG9CQUFvQjtFQUNwQixvQ0FBb0M7Q0FDckM7O0FBRUQ7RUFDRSx1QkFBdUI7RUFDdkIsb0JBQW9CO0VBQ3BCLHNCQUFzQjtFQUN0QixZQUFZO0VBQ1osb0NBQW9DO0VBQ3BDLGFBQWE7RUFDYixzQkFBc0I7RUFDdEIsaUJBQWlCO0VBQ2pCLGlCQUFpQjtDQUNsQjs7QUFFRDtFQUNFLG9DQUFvQztFQUNwQywrQkFBK0I7Q0FDaEM7O0FBRUQ7RUFDRSxXQUFXO0NBQ1o7O0FBRUQ7RUFDRSxhQUFhO0NBQ2Q7O0FBRUQ7RUFDRSxZQUFZO0NBQ2I7O0FBRUQ7RUFDRSxpQ0FBbUQ7RUFDbkQsMkJBQTJCO0VBQzNCLDZCQUE2QjtFQUM3QixzQkFBc0I7Q0FDdkI7O0FBRUQ7RUFDRSxtQ0FBcUQ7RUFDckQsMkJBQTJCO0VBQzNCLDZCQUE2QjtFQUM3QixzQkFBc0I7Q0FDdkI7O0FBRUQ7RUFDRSwyQ0FBMkM7Q0FDNUMiLCJmaWxlIjoic3JjL2FwcC9nYW1lL3NpZGViYXIvc2lkZWJhci5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLm5ldy1nYW1lICB7XG4gIHdpZHRoOiA4MHB4O1xuICBoZWlnaHQ6IDMwcHg7XG4gIG1hcmdpbjogMTBweDtcbiAgYm9yZGVyLXJhZGl1czogMjBweDtcbiAgYmFja2dyb3VuZC1jb2xvcjogcmdiKDczLCAxMjgsIDIyMyk7XG59XG5cbi5nby10by1tZW51IHtcbiAgYm9yZGVyOiAycHggc29saWQgZ3JheTtcbiAgYm9yZGVyLXJhZGl1czogMjBweDtcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICB3aWR0aDogNTVweDtcbiAgYmFja2dyb3VuZC1jb2xvcjogcmdiKDczLCAxMjgsIDIyMyk7XG4gIGNvbG9yOiBibGFjaztcbiAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xuICBmb250LXdlaWdodDogMTAwO1xuICBwYWRkaW5nOjNweCAxNXB4O1xufVxuXG4uZ28tdG8tbWVudTpob3ZlciB7XG4gIGJveC1zaGFkb3c6IDAgMCA1cHggcmdiYSgwLDAsMCwwLjMpO1xuICBiYWNrZ3JvdW5kOiByZ2IoMTAzLCAxNTIsIDIzOCk7XG59XG5cbi5tYXN0ZXIge1xuICBjb2xvcjogcmVkO1xufVxuXG4uaXMtZmluaXNoZWQge1xuICBvcGFjaXR5OiAwLjU7XG59XG5cbi5ib3QtbnVtYmVye1xuICB3aWR0aDogMzBweDtcbn1cblxuLmlzLWJvdCB7XG4gIGJhY2tncm91bmQtaW1hZ2U6IHVybCguLi8uLi8uLi9hc3NldHMvaW1nL2JvdC5wbmcpO1xuICBiYWNrZ3JvdW5kLXBvc2l0aW9uLXg6IDk1JTtcbiAgYmFja2dyb3VuZC1yZXBlYXQ6IG5vLXJlcGVhdDtcbiAgYmFja2dyb3VuZC1zaXplOiAyMHB4O1xufVxuXG4uaXMtaHVtYW4ge1xuICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoLi4vLi4vLi4vYXNzZXRzL2ltZy9odW1hbi5wbmcpO1xuICBiYWNrZ3JvdW5kLXBvc2l0aW9uLXg6IDk1JTtcbiAgYmFja2dyb3VuZC1yZXBlYXQ6IG5vLXJlcGVhdDtcbiAgYmFja2dyb3VuZC1zaXplOiAyNXB4O1xufVxuXG4ucGxheWVyLW5hbWUge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2JhKDI1NSwgMjU1LCAyNTUsIDAuMyk7XG59XG4iXX0= */"
 
 /***/ }),
 
@@ -649,7 +654,7 @@ module.exports = ".new-game  {\n  width: 80px;\n  height: 30px;\n  margin: 10px;
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<section class=\"side-bar\">\n  <!-- <button class=\"new-game\"\n   (click)=\"gameStarted.emit()\"\n   *ngIf=\"!gameInProgress\">\n    New game\n  </button> -->\n  <a class=\"go-to-menu\"\n   routerLink=\"/menu\"\n   *ngIf=\"!gameInProgress\">\n   Menu\n  </a>\n\n  <p *ngIf=\"!gameInProgress\">\n    Players: {{players ? players.length : 0}}/{{thisRoom ? thisRoom.maxPlayers : 0}}\n  </p>\n\n  <div class=\"master-comtrols\"\n      *ngIf=\"thisRoom ? thisRoom.masterId === blackJackData.userId && !gameInProgress : false\">\n\n  <p>\n    Add\n     <input class=\"bot-number\"\n      placeholder=\"0\"\n      #numberOfBots>\n    bots\n  </p>\n\n  <button class=\"new-game\"\n   (click)=\"gameStarted.emit(numberOfBots.value); numberOfBots.value=''\">\n    Start\n  </button>\n</div>\n\n  <div class=\"game-log\">\n    <p *ngFor=\"let message of allMessages\">\n      {{ message }}\n    </p>\n  </div>\n\n  <div class=\"game-score\">\n\n    <h2>\n      <span *ngIf=\"!gameInProgress\">Game score:</span>\n      <span *ngIf=\"gameInProgress\">Players:</span>\n    </h2>\n\n    <p *ngFor=\"let player of players\"\n    [class.master]=\"thisRoom ? thisRoom.masterId === player.id : false\"\n    [class.is-finished]=\"player.isFinished && gameInProgress\"\n    [class.is-human]=\"!player.isBot\"\n    [class.is-bot]=\"player.isBot\">\n\n    {{player.name}}<span *ngIf=\"!gameInProgress\">: {{player.score}}</span>\n    </p>\n\n  </div>\n\n  <!-- <div *ngIf=\"!gameInProgress\" class=\"game-players\">\n\n    <h2>Players</h2>\n\n    <p *ngFor=\"let player of players\">{{player.name}}<span *ngIf=\"player.ready\">: ready</span></p>\n\n  </div> -->\n\n</section>\n"
+module.exports = "<section class=\"side-bar\">\n  <!-- <button class=\"new-game\"\n   (click)=\"gameStarted.emit()\"\n   *ngIf=\"!gameInProgress\">\n    New game\n  </button> -->\n  <a class=\"go-to-menu\"\n   routerLink=\"/menu\"\n   *ngIf=\"!gameInProgress\">\n   Menu\n  </a>\n\n  <p *ngIf=\"!gameInProgress\">\n    Players: {{players ? players.length : 0}} of {{thisRoom ? thisRoom.maxPlayers : 0}}\n  </p>\n\n  <div class=\"master-comtrols\"\n      *ngIf=\"thisRoom ? thisRoom.masterId === blackJackData.userId && !gameInProgress : false\">\n\n  <button class=\"new-game\"\n    *ngIf=\"thisRoom ? thisRoom.masterId === blackJackData.userId && !gameInProgress : false\"\n    (click)=\"addBot()\">\n    Add bot\n  </button>\n\n  <button class=\"new-game\" *ngIf=\"thisRoom ? thisRoom.masterId === blackJackData.userId && !gameInProgress : false\"\n    (click)=\"deleteBot()\">\n    Delete bot\n  </button>\n\n  <!-- <p>\n    Add\n     <input class=\"bot-number\"\n      placeholder=\"0\"\n      #numberOfBots>\n    bots\n  </p> -->\n\n  <button class=\"new-game\"\n   (click)=\"gameStarted.emit()\">\n    New game\n  </button>\n</div>\n\n  <div class=\"game-log\">\n    <p *ngFor=\"let message of allMessages\">\n      {{ message }}\n    </p>\n  </div>\n\n  <div class=\"game-score\">\n\n    <h2>\n      <span *ngIf=\"!gameInProgress\">Game score:</span>\n      <span *ngIf=\"gameInProgress\">Players:</span>\n    </h2>\n\n    <p *ngFor=\"let player of players\"\n    [class.player-name]=\"player.isMyTurn && gameInProgress\"\n    [class.master]=\"thisRoom ? thisRoom.masterId === player.id : false\"\n    [class.is-finished]=\"player.isFinished && gameInProgress\"\n    [class.is-human]=\"!player.isBot\"\n    [class.is-bot]=\"player.isBot\">\n\n    {{player.name}}<span *ngIf=\"!gameInProgress\">: {{player.score}}</span>\n    </p>\n\n  </div>\n\n  <!-- <div *ngIf=\"!gameInProgress\" class=\"game-players\">\n\n    <h2>Players</h2>\n\n    <p *ngFor=\"let player of players\">{{player.name}}<span *ngIf=\"player.ready\">: ready</span></p>\n\n  </div> -->\n\n</section>\n"
 
 /***/ }),
 
@@ -679,18 +684,31 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 // import { Subject } from 'rxjs';
 // import { takeUntil } from 'rxjs/operators';
 var SidebarComponent = /** @class */ (function () {
+    // public blackJackData: TLocalData = this._myService.blackJackData;
     function SidebarComponent(_myService) {
         this._myService = _myService;
         this.gameStarted = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
-        this.blackJackData = this._myService.blackJackData;
     }
+    SidebarComponent.prototype.addBot = function () {
+        var newBot = this._myService.createPlayer(this._myService.randomNick(), true, this._myService.getRandom() + 100000);
+        this.players.push(newBot);
+        console.log(this.players);
+        this._myService.updatePlayer(newBot, this.thisRoom.id);
+    };
+    SidebarComponent.prototype.deleteBot = function () {
+        if (this.players[this.players.length - 1].isBot) {
+            var deletedBot = this.players.pop();
+            console.log(this.players);
+            this._myService.removePlayer(deletedBot.id, this.thisRoom.id);
+        }
+    };
     __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])(),
         __metadata("design:type", Array)
     ], SidebarComponent.prototype, "allMessages", void 0);
     __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])(),
-        __metadata("design:type", Object)
+        __metadata("design:type", Array)
     ], SidebarComponent.prototype, "players", void 0);
     __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])(),
@@ -700,6 +718,10 @@ var SidebarComponent = /** @class */ (function () {
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])(),
         __metadata("design:type", Object)
     ], SidebarComponent.prototype, "thisRoom", void 0);
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])(),
+        __metadata("design:type", Object)
+    ], SidebarComponent.prototype, "blackJackData", void 0);
     __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"])(),
         __metadata("design:type", _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"])
@@ -878,7 +900,7 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 var LoginComponent = /** @class */ (function () {
     function LoginComponent(_myService) {
         this._myService = _myService;
-        this.blackJackData = JSON.parse(localStorage.getItem('blackJackData')) || {};
+        this.blackJackData = this._myService.getMyData() || {};
         this.userName = this.blackJackData.userName;
     }
     LoginComponent.prototype.saveUserName = function (name) {
@@ -983,7 +1005,7 @@ module.exports = ".main-container {\n  display: flex;\n  flex-direction: row;\n 
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"main-container\">\n  <app-sidebar [allMessages]=\"allMessages\"\n    [thisRoom]=\"thisRoom\"\n    [players]=\"players\"\n    [gameInProgress]=\"gameInProgress\"\n    (gameStarted)=\"blackJackInit($event)\">\n  </app-sidebar>\n\n  <app-field (cardTaken)=\"nextRound()\" [players]=\"players\" [gameInProgress]=\"gameInProgress\" (gameStopped)=\"stopGame()\">\n  </app-field>\n</div>\n"
+module.exports = "<div class=\"main-container\">\n  <app-sidebar [allMessages]=\"allMessages\"\n    [thisRoom]=\"thisRoom\"\n    [players]=\"players\"\n    [blackJackData]=\"blackJackData\"\n    [gameInProgress]=\"gameInProgress\"\n    (gameStarted)=\"blackJackInit()\">\n  </app-sidebar>\n\n  <app-field (cardTaken)=\"nextRound()\"\n    [blackJackData]=\"blackJackData\"\n    [players]=\"players\"\n    [gameInProgress]=\"gameInProgress\"\n    (gameStopped)=\"stopGame()\">\n  </app-field>\n</div>\n"
 
 /***/ }),
 
@@ -1018,11 +1040,12 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 var MultiplayerComponent = /** @class */ (function () {
     function MultiplayerComponent(_myService) {
         this._myService = _myService;
-        this.players = this.createPlayers(1, 1);
+        this.players = [];
         this.gameInProgress = false;
         this.allMessages = [];
         this.playersObj = {};
         this.records = {};
+        this.blackJackData = this._myService.getMyData() || this._myService.randomUserData;
         this._destroy$$ = new rxjs__WEBPACK_IMPORTED_MODULE_2__["Subject"]();
         this._newDeck = this._myService.createDeck();
         this._myDeck = this._myService.shuffleDeck(this._newDeck);
@@ -1030,6 +1053,7 @@ var MultiplayerComponent = /** @class */ (function () {
     MultiplayerComponent.prototype.ngOnInit = function () {
         var _this = this;
         this._myService.updateDeck(this._myDeck, this._myService.roomId);
+        this.blackJackData = this._myService.getMyData() || this._myService.randomUserData;
         // this.players.forEach((player: TPlayer) =>
         //   this._myService.updatePlayer(player, this._myService.roomId)
         // );
@@ -1045,74 +1069,60 @@ var MultiplayerComponent = /** @class */ (function () {
             .subscribe(function (room) {
             _this.thisRoom = room;
             _this._myDeck = room.deck;
+            _this.gameInProgress = _this.thisRoom.gameInProgress;
             _this.allMessages = room.messages ? room.messages : [];
             if (room.players) {
                 _this.players = Object.values(room.players);
                 _this.playersObj = room.players;
             }
-            _this.gameInProgress = _this.players
-                ? Object.keys(_this.players).length === _this.thisRoom.maxPlayers &&
-                    _this.players.every(function (player) { return player.ready; }) &&
-                    !_this.players.every(function (player) { return player.isFinished; })
-                : false;
-            if (_this.gameInProgress &&
-                _this.players &&
-                _this.players.every(function (player) { return player.score === 0; })) {
-                _this.players[0].isMyTurn = true;
-                _this._myService.updatePlayer(_this.players[0], _this.thisRoom.id);
-            }
-            _this._myService.changeInProgress(_this.gameInProgress, _this._myService.roomId);
-            _this.myIndex = _this.players.findIndex(function (player) { return player.id === _this._myService.blackJackData.userId; });
+            // this.gameInProgress = this.players
+            //   ? Object.keys(this.players).length === this.thisRoom.maxPlayers &&
+            //     this.players.every((player: TPlayer) => player.ready) &&
+            //     !this.players.every((player: TPlayer) => player.isFinished)
+            //   : false;
+            // if (
+            //   this.gameInProgress &&
+            //   this.players &&
+            //   this.players.every((player: TPlayer) => player.score === 0)
+            // ) {
+            //   this.players[0].isMyTurn = true;
+            //   this._myService.updatePlayer(this.players[0], this.thisRoom.id);
+            // }
+            // this._myService.changeInProgress(this.gameInProgress, this._myService.roomId);
+            _this.myIndex = _this.players.findIndex(function (player) { return player.id === _this.blackJackData.userId; });
         });
     };
     MultiplayerComponent.prototype.ngOnDestroy = function () {
         this._findNewMaster(this.thisRoom);
         this._destroy$$.next();
     };
-    MultiplayerComponent.prototype.Player = function (isBot, id) {
-        var player = {
-            name: isBot ? this._myService.randomNick() : this._myService.blackJackData.userName,
-            isBot: isBot,
-            id: isBot ? id + 500000 : id,
-            isWinner: false,
-            isFinished: false,
-            score: 0,
-            cards: [],
-            ready: isBot ? true : false,
-            isMyTurn: false
-        };
-        return player;
-    };
-    MultiplayerComponent.prototype.createPlayers = function (playersNumber, humansNumber) {
-        var players = [];
-        var id = this._myService.blackJackData.userId;
-        // let botId: number = id + 500000;
-        for (var i = 0; i < playersNumber; i++, id += 100000) {
-            var isBot = i < humansNumber ? false : true;
-            var newPlayer = this.Player(isBot, id);
-            players.push(newPlayer);
+    MultiplayerComponent.prototype.createBots = function (botsNumber) {
+        var bots = [];
+        var id = this._myService.getRandom();
+        for (var i = 0; i < botsNumber; i++, id += 100000) {
+            var newBot = this._myService.createPlayer(this._myService.randomNick(), true, id);
+            bots.push(newBot);
         }
-        return players;
+        return bots;
     };
-    MultiplayerComponent.prototype.blackJackInit = function (numberOfBots) {
-        if (numberOfBots) {
-            this.addBots(numberOfBots);
-        }
+    MultiplayerComponent.prototype.blackJackInit = function () {
+        // if (numberOfBots) {
+        //   this.addBots(numberOfBots);
+        // }
         this._myService.changeMaxPlayers(this.players.length, this.thisRoom.id);
         this.startNewGame();
     };
-    MultiplayerComponent.prototype.addBots = function (numberOfBots) {
-        var _this = this;
-        var bots = this.createPlayers(numberOfBots, 0);
-        bots.forEach(function (bot) {
-            _this._myService.updatePlayer(bot, _this.thisRoom.id);
-            _this.players.push(bot);
-        });
-        return bots;
-    };
+    // public addBots(numberOfBots: number): TPlayer[] {
+    //   const bots: TPlayer[] = this.createBots(numberOfBots);
+    //   bots.forEach((bot: TPlayer) => {
+    //     this._myService.updatePlayer(bot, this.thisRoom.id);
+    //     this.players.push(bot);
+    //   });
+    //   return bots;
+    // }
     MultiplayerComponent.prototype.startNewGame = function () {
         var _this = this;
-        this.allMessages = [];
+        this._myService.changeInProgress(true, this._myService.roomId);
         this._myDeck = this._myService.shuffleDeck(this._newDeck);
         this._clearBoard();
         this.players.forEach(function (player) {
@@ -1121,12 +1131,10 @@ var MultiplayerComponent = /** @class */ (function () {
             player.isWinner = false;
             player.score = 0;
             player.isMyTurn = false;
-            if (player.id === _this._myService.blackJackData.userId) {
-                player.ready = true;
-            }
+            player.ready = true;
         });
         this.players[0].isMyTurn = true;
-        if (this._myService.blackJackData.userId === this.thisRoom.masterId) {
+        if (this.blackJackData.userId === this.thisRoom.masterId) {
             this.players.forEach(function (player) {
                 var takenCard = _this._takeNewCard(player);
                 // this._writeMessage(`${player.name} took ${takenCard.name} ${takenCard.symbol}`);
@@ -1138,7 +1146,7 @@ var MultiplayerComponent = /** @class */ (function () {
     };
     MultiplayerComponent.prototype.stopGame = function () {
         if (!this.players[this.myIndex].isFinished) {
-            this._writeMessage(this._myService.blackJackData.userName + " stopped the game");
+            this._writeMessage(this.blackJackData.userName + " stopped the game");
         }
         this.players[this.myIndex].isFinished = true;
         this.nextRound();
@@ -1195,9 +1203,6 @@ var MultiplayerComponent = /** @class */ (function () {
                 });
                 if (bustCounter_1 === this.players.length - 1) {
                     this._finishGame(potentialWinner_1);
-                    // potentialWinner.isWinner = true;
-                    // potentialWinner.isFinished = true;
-                    // this._writeMessage(`${potentialWinner.name} has won! Cheers!`);
                 }
             }
             if (player.score === 21) {
@@ -1207,12 +1212,11 @@ var MultiplayerComponent = /** @class */ (function () {
         this._myService.updatePlayer(player, this._myService.roomId);
         if (this.players.every(function (_player) { return _player.isFinished; })) {
             var winner = this._myService.evaluateWinner(this.players);
+            this._myService.changeInProgress(false, this._myService.roomId);
             this._writeMessage(winner.name + " has won");
-            // if (this.thisRoom.masterId === this._myService.blackJackData.userId) {
             this._myService.updateRecords(this.players, this.records);
             console.log("update");
             console.log(this.records);
-            // }
         }
     };
     MultiplayerComponent.prototype._clearBoard = function () {
@@ -1242,7 +1246,7 @@ var MultiplayerComponent = /** @class */ (function () {
         this._myService.updateMessages(this.allMessages, this._myService.roomId);
     };
     MultiplayerComponent.prototype._findNewMaster = function (room) {
-        if (room.masterId === this._myService.blackJackData.userId) {
+        if (room.masterId === this.blackJackData.userId) {
             var nextMasterIndex = this.findNextIndex(this.myIndex);
             while (this.players[nextMasterIndex].isBot) {
                 nextMasterIndex = this.findNextIndex(nextMasterIndex);
@@ -1388,16 +1392,17 @@ var PlayroomComponent = /** @class */ (function () {
         this.db = db;
         this._myService = _myService;
         this.router = router;
-        this.blackJackData = this._myService.blackJackData;
+        this.blackJackData = this._myService.getMyData() || this._myService.randomUserData;
         this.players = {};
         // public playersArr: TPlayer[] = [];
         this.playerNumber = 0;
         this.mayIComeIn = false;
         this._destroy$$ = new rxjs__WEBPACK_IMPORTED_MODULE_4__["Subject"]();
-        this.newPlayer = this._myService.Player(this.blackJackData.userName, false, this.blackJackData.userId);
+        this.newPlayer = this._myService.createPlayer(this.blackJackData.userName, false, this.blackJackData.userId);
     }
     PlayroomComponent.prototype.ngOnInit = function () {
         var _this = this;
+        this.blackJackData = this._myService.getMyData() || this._myService.randomUserData;
         this.route.params
             .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_5__["pluck"])('id'), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_5__["tap"])(function (roomId) {
             _this._myService.roomId = roomId;
@@ -1411,22 +1416,22 @@ var PlayroomComponent = /** @class */ (function () {
             // this.playersArr = room.players ? Object.values(room.players) : [];
             _this.playerNumber = _this.players ? Object.keys(_this.players).length : 0;
         }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_5__["tap"])(function (room) {
-            if (room.gameInProgress && !room.players[_this._myService.blackJackData.userId]) {
+            if (room.gameInProgress && !room.players[_this.blackJackData.userId]) {
                 _this.router.navigate(['closed-room']);
             }
             if (room.maxPlayers <= _this.playerNumber &&
-                !room.players[_this._myService.blackJackData.userId]) {
+                !room.players[_this.blackJackData.userId]) {
                 _this.router.navigate(['closed-room']);
             }
         }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_5__["filter"])(function (room) {
             return room.maxPlayers > _this.playerNumber ||
-                !!room.players[_this._myService.blackJackData.userId];
+                !!room.players[_this.blackJackData.userId];
         }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_5__["filter"])(function (room) {
-            return !room.gameInProgress || !!room.players[_this._myService.blackJackData.userId];
+            return !room.gameInProgress || !!room.players[_this.blackJackData.userId];
         }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_5__["tap"])(function () {
             _this.mayIComeIn = true;
         }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_5__["filter"])(function (room) {
-            return room.players ? !room.players[_this._myService.blackJackData.userId] : true;
+            return room.players ? !room.players[_this.blackJackData.userId] : true;
         }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_5__["tap"])(function () {
             _this._myService.updatePlayer(_this.newPlayer, _this._myService.roomId);
         }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_5__["takeUntil"])(this._destroy$$))
@@ -1644,18 +1649,14 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 var MyFirstServiceService = /** @class */ (function () {
-    // public myBotsId: number[] = [
-    //   this.blackJackData.userId + 100000,
-    //   this.blackJackData.userId + 200000,
-    //   this.blackJackData.userId + 300000
-    // ];
     function MyFirstServiceService(db) {
         this.db = db;
-        this.randomUserNumber = this.getRandom();
-        this.blackJackData = this.getMyData() || {
+        this.randomUserData = {
             userName: this.randomNickHuman(),
-            userId: this.randomUserNumber
+            userId: this.getRandom()
         };
+        // public randomUserNumber: number = this.getRandom();
+        this.blackJackData = this.getMyData() || this.randomUserData;
         this.roomId = 0;
     }
     MyFirstServiceService.prototype.getRoomData = function () {
@@ -1686,7 +1687,7 @@ var MyFirstServiceService = /** @class */ (function () {
         // debugger;
         this.db.object('/rooms/room' + roomId + ("/players/" + player.id)).update(player);
     };
-    MyFirstServiceService.prototype.Player = function (name, isBot, id) {
+    MyFirstServiceService.prototype.createPlayer = function (name, isBot, id) {
         var player = {
             name: name,
             isBot: isBot,
@@ -1702,7 +1703,7 @@ var MyFirstServiceService = /** @class */ (function () {
     };
     MyFirstServiceService.prototype.randomNick = function () {
         var nicks = ['Крот', 'Бот', 'Кот'];
-        var character = ['Жёваный', 'Нёжеваный', 'Недожёваный', 'Просто'];
+        var character = ['Жёваный', 'Нежёваный', 'Недожёваный'];
         var nickNames = [];
         nicks.forEach(function (name) {
             character.forEach(function (char) {
@@ -1714,7 +1715,15 @@ var MyFirstServiceService = /** @class */ (function () {
         return randomName;
     };
     MyFirstServiceService.prototype.randomNickHuman = function () {
-        var nickNames = ['Штирлиц', 'Бабайка', 'Балалайка', 'Cool Hacker', 'Чиполино', 'Шапокляк'];
+        var nickNames = [
+            'Штирлиц',
+            'Бабайка',
+            'Балалайка',
+            'Cool Hacker',
+            'Чиполино',
+            'Шапокляк',
+            'Сепулька'
+        ];
         var randomName = nickNames[Math.ceil(Math.random() * nickNames.length)];
         return randomName;
     };
@@ -1836,7 +1845,7 @@ var MyFirstServiceService = /** @class */ (function () {
             }
             win.isWinner = true;
             return win;
-        }, this.Player('', false, 1));
+        }, this.createPlayer('', false, 1));
         return winner;
     };
     MyFirstServiceService = __decorate([
